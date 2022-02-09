@@ -17,4 +17,10 @@ Og ["cheat sheet" ligger (her)](https://htmlcheatsheet.com/css/)
 
 
 ## Demo
+Hey everyone, I have a little challenge. Who can find a flower and a snowman on my website? Is he any brave? All methods allowed😁  
+
 ![demo](img/demo.png)
+
+![demo](img/demo2.png)
+
+![demo](img/demo3.png)
