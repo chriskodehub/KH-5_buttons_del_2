@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Buttons examples</title>
+</head>
+
+<body>
+    <div class="container flex-direction-column">
+        <header class="header flex-direction-row">
+            <img class="logo" src="img/logo.webp" alt="logo">
+            <div class="title">
+                Buttons examples - Personal data
+            </div>
+            <nav class="nav">
+                <!-- navigation code -->
+            </nav>
+        </header>
+        <div class="container-main flex-direction-row">
+            <main class="main">
+                <article class="article">
+                    <div>
+                        <div>
+                            <h1 class="title">Links</h1>
+                            <p>Fill in the form.
+                            </p>
+                        </div>
+
+                        <div>
+                            <form>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="name">Enter your name:</label>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="name" placeholder="Name" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="fnumber">Enter your favorite number:</label>
+                                        </td>
+                                        <td>
+                                            <input type="number" id="fnumber" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="birthday">Enter your birthday:</label>
+                                        </td>
+                                        <td>
+                                            <input type="date" id="birthday" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="mood">Choose your mood:</label>
+                                        </td>
+                                        <td>
+                                            <select id="mood" class="max" required>
+                                                <option>Happy</option>
+                                                <option>Sad</option>
+                                                <option>Angry</option>
+                                                <option>Worried</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="text-align: center;">
+                                            <button id="send-data" class="button">Submit</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div>
+                            <br>
+                            <h3>Your data</h3>
+                            <table>
+                                <tr>
+                                    <td>Your name:</td>
+                                    <td id="show-name" class="bold" style="width: 150px;"></td>
+                                    <td id="ikke-flower" rowspan="4" style="width: 100px;"></td>
+                                </tr>
+                                <tr>
+                                    <td>Your favorite number:</td>
+                                    <td id="show-number" class="bold"></td>
+                                </tr>
+                                <tr>
+                                    <td>Your birthday:</td>
+                                    <td id="show-birthday" class="bold"></td>
+                                </tr>
+                                <tr>
+                                    <td>Your mood:</td>
+                                    <td id="show-mood" class="bold"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </article>
+            </main>
+            <div class="sidebar">
+                <h2 class="subhead">Buttons ex<span class="white-text">amples</span></h2>
+                <nav class="sidebar-nav">
+                    <ol>
+                        <li><a href="index.html">Flag Selection</a></li>
+                        <li><a href="page2.html">Personal data</a></li>
+                        <li><a href="page3.html">Color change</a></li>
+                    </ol>
+                </nav>
+            </div><!-- .sidebar END -->
+        </div>
+        <footer class="footer flex-direction-row">
+            Inspired by:
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-jobloop.png" alt="Logo Jobloop"
+                    style="height: 50px;"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-podium.png" alt="Logo Podium"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-nav.png" alt="Logo NAV"></a>
+        </footer>
+    </div>
+    <script src="js/page2.js"></script>
+</body>
+
+</html>

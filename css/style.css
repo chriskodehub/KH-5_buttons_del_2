@@ -1,0 +1,287 @@
+/* Current task START ---------- */
+
+.flag {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+td,
+th {
+    padding: 5px 20px 5px 0px;
+}
+
+caption {
+    color: lightseagreen;
+    caption-side: bottom;
+    font-size: 80%;
+    margin: 5px 0 20px;
+}
+
+a {
+    color: lightseagreen;
+}
+
+.bold {
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+.max {
+    width: 100%;
+}
+
+::placeholder {
+    color: lightseagreen;
+}
+
+.button {
+    background: lightseagreen;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.flower {
+    height: 100px;
+}
+
+.table-colors {
+    border-spacing: 10px;
+}
+
+.bg {
+    width: 50px;
+    padding: 0;
+}
+
+.bg-col {
+    width: 30px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.range {
+    width: 350px;
+    padding-left: 20px;
+}
+
+.input-range {
+    width: 100%;
+}
+
+.red-bg {
+    background: rgb(255, 0, 0);
+}
+
+.green-bg {
+    background: rgb(0, 255, 0);
+}
+
+.blue-bg {
+    background: rgb(0, 0, 255);
+}
+
+.alfa-bg {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%)
+}
+
+.final-color {
+    width: 570px;
+    margin-top: -321px;
+    display: flex;
+    height: 321px;
+    min-height: 100%;
+}
+
+.snowman {
+    width: 100%;
+    margin-top: 50px;
+    height: 321px;
+    background-image: url("../img/snowman.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Current task END ------------ */
+/* html START -------------------------------------------------------------- */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    color: lightseagreen;
+}
+
+/* .container START ---------------------------------------------- */
+
+div,
+header,
+nav,
+main,
+footer,
+aside {
+    box-sizing: border-box;
+}
+
+.flex-direction-row {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+/* .header START --------------------------------------- */
+
+.header {
+    background: lightgray;
+    width: 100vw;
+    height: 150px;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 50px;
+}
+
+.title {
+    font-size: 40px;
+    height: fit-content;
+}
+
+.nav {
+    /* navigation code */
+}
+
+/* .header END ----------------------------------------- */
+/* .container-main START ------------------------------- */
+
+.container-main {
+    width: 1000px;
+    margin-top: 50px;
+    flex: 1;
+}
+
+/* .main START ------------------------------- */
+.main {
+    flex-grow: 3;
+    flex-basis: 0;
+}
+/* .article START ------------------ */
+
+.article {
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .article END -------------------- */
+/* .main END --------------------------------- */
+/* .sidebar START ---------------------------- */
+
+.sidebar .subhead {
+    margin: 0px;
+}
+
+.sidebar {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: white;
+    height: fit-content;
+    padding: 15px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/* .subhead START ------------------ */
+
+.subhead {
+    background-color: #281b2d;
+    color: #fcd801;
+    font-size: 36px;
+    padding: 20px;
+    border-bottom: 5px solid lightseagreen;
+    margin-top: 0;
+}
+
+.white-text {
+    color: white;
+}
+
+/* .subhead END -------------------- */
+/* .sidebar-nav START -------------- */
+
+.sidebar-nav ol {
+    margin-top: 35px;
+    list-style-position: inside;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.sidebar-nav ol li {
+    margin-bottom: 20px;
+}
+
+.sidebar-nav ol li a {
+    text-decoration: none;
+}
+
+.sidebar-nav ol li a:hover {
+    text-decoration: underline;
+}
+
+/* .sidebar-nav END ---------------- */
+/* .sidebar END ------------------------------ */
+/* .container-main END --------------------------------- */
+/* .footer START --------------------------------------- */
+
+.footer {
+    width: 100vw;
+    height: 100px;
+    column-gap: 30px;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    align-items: center;
+}
+
+/* .footer-logo START ------------------------ */
+
+.footer-logo {
+    height: 40px;
+}
+
+/* .footer-logo END -------------------------- */
+/* .footer END ----------------------------------------- */
+/* .container END ------------------------------------------------- */
+/* html END ---------------------------------------------------------------- */

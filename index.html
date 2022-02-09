@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Buttons examples</title>
+</head>
+
+<body>
+    <div class="container flex-direction-column">
+        <header class="header flex-direction-row">
+            <img class="logo" src="img/logo.webp" alt="logo">
+            <div class="title">
+                Buttons examples - Flag selection
+            </div>
+            <nav class="nav">
+                <!-- navigation code -->
+            </nav>
+        </header>
+        <div class="container-main flex-direction-row">
+            <main class="main">
+                <article class="article">
+                    <div>
+                        <div>
+                            <h1 class="title">Flags</h1>
+                            <p>Choose country and click <b>OK</b>.</a>.
+                            </p>
+
+                            <form>
+                                <label for="land"></label>
+                                <select id="land" required>
+                                    <option value="">Velg land</option>
+                                    <option value="poland">Polen</option>
+                                    <option value="italy">Italia</option>
+                                    <option value="greece">Hellas</option>
+                                    <option value="norway">Norway</option>
+                                </select>
+                                <button id="button">OK</button>
+                            </form>
+
+                        </div>
+                        <div id="flag" class="flag flex-direction-row">
+
+                        </div>
+                    </div>
+                </article>
+            </main>
+            <div class="sidebar">
+                <h2 class="subhead">Buttons ex<span class="white-text">amples</span></h2>
+                <nav class="sidebar-nav">
+                    <ol>
+                        <li><a href="index.html">Flag selection</a></li>
+                        <li><a href="page2.html">Personal data</a></li>
+                        <li><a href="page3.html">Color change</a></li>
+                    </ol>
+                </nav>
+            </div><!-- .sidebar END -->
+        </div>
+        <footer class="footer flex-direction-row">
+            Inspired by:
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-jobloop.png" alt="Logo Jobloop"
+                    style="height: 50px;"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-podium.png" alt="Logo Podium"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-nav.png" alt="Logo NAV"></a>
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

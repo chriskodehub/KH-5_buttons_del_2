@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Buttons examples</title>
+</head>
+
+<body>
+    <div class="container flex-direction-column">
+        <header class="header flex-direction-row">
+            <img class="logo" src="img/logo.webp" alt="logo">
+            <div class="title">
+                Buttons examples - Color change
+            </div>
+            <nav class="nav">
+                <!-- navigation code -->
+            </nav>
+        </header>
+        <div class="container-main flex-direction-row">
+            <main class="main">
+                <article class="article">
+                    <div>
+                        <h1 class="title">Where is the snowman hiding?</h1>
+
+                        <form>
+                            <table class="table-colors">
+                                <tr>
+                                    <td class="bg red-bg"></td>
+                                    <td class="range"><input type="range" id="red" min="0" max="255" step="1"
+                                            class="input-range" value="255"></td>
+                                    <td class="bg-col" style=""><label for="red"></label></td>
+                                    <td id="red-bg-set" class="bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="bg green-bg"></td>
+                                    <td class="range"><input type="range" id="green" min="0" max="255" step="1"
+                                            class="input-range" value="90"></td>
+                                    <td class="bg-col" style=""><label for="green"></label></td>
+                                    <td id="green-bg-set" class="bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="bg blue-bg"></td>
+                                    <td class="range"><input type="range" id="blue" min="0" max="255" step="1"
+                                            class="input-range" value="185"></td>
+                                    <td class="bg-col" style=""><label for="blue"></label></td>
+                                    <td id="blue-bg-set" class="bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="bg alfa-bg"></td>
+                                    <td class="range"><input type="range" id="alfa" min="0" max="1" step="0.01"
+                                            class="input-range" value="1"></td>
+                                    <td class="bg-col" style=""><label for="alfa"></label></td>
+                                    <td id="alfa-bg-set" class="bg alfa-bg-set"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="snowman"></div>
+                        <div id="final-color" class="final-color"></div>
+                    </div>
+                </article>
+            </main>
+            <div class="sidebar">
+                <h2 class="subhead">Buttons ex<span class="white-text">amples</span></h2>
+                <nav class="sidebar-nav">
+                    <ol>
+                        <li><a href="index.html">Flag Selection</a></li>
+                        <li><a href="page2.html">Personal data</a></li>
+                        <li><a href="page3.html">Color change</a></li>
+                    </ol>
+                </nav>
+            </div><!-- .sidebar END -->
+        </div>
+        <footer class="footer flex-direction-row">
+            Inspired by:
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-jobloop.png" alt="Logo Jobloop"
+                    style="height: 50px;"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-podium.png" alt="Logo Podium"></a>
+            <a href="https://jobloop.no"><img class="footer-logo" src="img/logo-nav.png" alt="Logo NAV"></a>
+        </footer>
+    </div>
+    <script src="js/page3.js"></script>
+</body>
+
+</html>
