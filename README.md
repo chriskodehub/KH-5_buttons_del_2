@@ -1,7 +1,7 @@
 # Buttons del 2
 
 [Source code](https://github.com/chriskodehub/KH-5_buttons_del_2)  
-[Live demo](https://github.com/chriskodehub/KH-5_buttons_del_2)
+[Live demo](https://chriskodehub.github.io/KH-5_buttons_del_2/)
 
 ## Oppgave
 
