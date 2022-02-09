@@ -88,3 +88,5 @@ alfa.addEventListener(
     },
     false
 );
+
+document.querySelector(".snowman").style.opacity = "1";
